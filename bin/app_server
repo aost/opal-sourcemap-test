@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'app_server'
+
+Rack::Server.start(app: AppServer::Server.new)
