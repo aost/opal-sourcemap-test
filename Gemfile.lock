@@ -1,19 +1,24 @@
+GIT
+  remote: git://github.com/opal/opal.git
+  revision: f30599c8c5f5afe6ef94591e2141aa9cced66827
+  specs:
+    opal (0.7.0.beta3)
+      hike (~> 1.2)
+      sourcemap (~> 0.1.0)
+      sprockets (>= 2.2.3, < 4.0.0)
+      tilt (~> 1.4)
+
 PATH
   remote: .
   specs:
     opal_sourcemap_test (0.0.1)
-      opal (= 0.7.0.beta1)
+      opal
 
 GEM
   remote: https://rubygems.org/
   specs:
     hike (1.2.3)
     multi_json (1.10.1)
-    opal (0.7.0.beta1)
-      hike (~> 1.2)
-      sourcemap (~> 0.1.0)
-      sprockets (>= 2.2.1, < 4.0.0)
-      tilt (~> 1.4)
     rack (1.5.2)
     rake (10.3.2)
     sourcemap (0.1.1)
@@ -28,5 +33,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  opal!
   opal_sourcemap_test!
   rake (~> 10.3.1)

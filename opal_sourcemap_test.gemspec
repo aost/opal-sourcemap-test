@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.files = Dir.glob('{bin,lib,opal}/**/*')
   s.executables = ['app_server']
 
-  s.add_runtime_dependency 'opal', '0.7.0.beta1'
+  s.add_runtime_dependency 'opal'
 
   s.add_development_dependency 'rake', '~> 10.3.1'
 end
